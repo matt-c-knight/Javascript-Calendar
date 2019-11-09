@@ -35,13 +35,13 @@ if (nine.dataset.time > currentTime) {
     $(".9").css("background-color", "green");
 }else if(nine.dataset.time == currentTime) {
     $(".9").css("background-color", "red");
-} else if (ten.dataset.time < currentTime) {
+} else if (nine.dataset.time < currentTime) {
     $(".9").css("background-color", "gray");
 }
 
 if (ten.dataset.time > currentTime) {
     $(".10").css("background-color", "green");
-}else if(nine.dataset.time == currentTime) {
+}else if(ten.dataset.time == currentTime) {
     $(".10").css("background-color", "red");
 } else if (ten.dataset.time < currentTime) {
     $(".10").css("background-color", "gray");

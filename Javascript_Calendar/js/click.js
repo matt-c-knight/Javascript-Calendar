@@ -59,7 +59,7 @@ $('.save12').click(function(event) {
     schedule = $('.12').val();
     console.log(schedule);
     times = {
-        time: twelveval,
+        time: twelveVal,
         input: schedule
     }
     scheduleArray.push(times);
